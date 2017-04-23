@@ -1,0 +1,2 @@
+(TOP (S (NP (NP (person (NNP Pierre) (NNP Vinken))) (, ,) (ADJP (NP (CD 61) (NNS years)) (JJ old)) (, ,)) (VP (MD will) (VP (VB join) (NP (DT the) (NN board)) (PP (IN as) (NP (DT a) (JJ nonexecutive) (NN director))) (NP (NNP Nov.) (CD 29)))) (. .)) )
+(TOP (S (NP (NNP Mr.) (NNP Vinken)) (VP (AUX is) (NP (NP (NN chairman)) (PP (IN of) (NP (NP (NNP Elsevier) (NNP N.V.)) (, ,) (NP (DT the) (JJ Dutch) (NN publishing) (NN group)))))) (. .)) )

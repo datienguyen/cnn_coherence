@@ -1,0 +1,3 @@
+(TOP (S (NP (organization (NNP Mellon) (NNP Bank) (NNP Corp.))) (VP (VBD said) (SBAR (S (NP (NNS directors)) (VP (VBD authorized) (NP (NP (DT the) (NN buy-back)) (PP (IN of) (NP (QP (RB as) (JJ many) (IN as) (CD 250,000)) (JJ common) (NNS shares)))))))) (. .)) )
+(TOP (S (NP (DT The) (NN bank) (VBG holding) (NN company)) (VP (VBD said) (SBAR (S (NP (NP (NN stock)) (VP (VBN repurchased))) (VP (MD will) (VP (AUX be) (VP (VBN used) (S (VP (TO to) (VP (VB meet) (NP (NP (NNS requirements)) (PP (IN for) (NP (NP (DT the) (NN company) (POS 's)) (NN benefit) (NNS plans))))))))))))) (. .)) )
+(TOP (S (NP (organization (NNP Mellon))) (VP (AUX has) (NP (NP (QP (CD 36.6) (CD million)) (NNS shares)) (ADJP (JJ outstanding)))) (. .)) )

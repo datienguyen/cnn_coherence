@@ -1,0 +1,3 @@
+(TOP (S (NP (NNP Lancaster) (NN Colony) (NNP Corp.)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBD acquired) (NP (organization (NNP Reames) (NNPS Foods) (NNP Inc.))) (PP (IN in) (NP (DT a) (NN cash) (NN transaction))))))) (. .)) )
+(TOP (S (NP (NNS Terms)) (VP (AUX were) (RB n't) (VP (VBN disclosed))) (. .)) )
+(TOP (S (S (NP (NP (NNP Reames)) (, ,) (NP (NP (NP (DT a) (NN maker) (CC and) (NN marketer)) (PP (IN of) (NP (JJ frozen) (NNS noodles)))) (CC and) (NP (NP (JJ pre-cooked) (NN pasta)) (VP (VBN based) (PP (IN in) (NP (NP (location (NNP Clive))) (, ,) (NP (location (NNP Iowa)))))))) (, ,)) (VP (AUX has) (NP (NP (JJ annual) (NNS sales)) (PP (IN of) (NP (QP (RB about) (money ($ $) (CD 11) (CD million)))))))) (, ,) (NP (NNP Lancaster)) (VP (VBD said)) (. .)) )

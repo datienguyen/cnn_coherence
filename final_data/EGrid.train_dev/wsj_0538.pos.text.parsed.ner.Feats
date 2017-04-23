@@ -1,0 +1,16 @@
+                                 COMPANY 0 1 0 0 0 1 0 1 1
+                                     LAW 0 1 0 0 0 1 0 0 0
+                                DIRECTOR 0 0 0 0 0 1 0 1 1
+                              MEMBERSHIP 0 0 0 0 0 1 0 1 1
+                                      E. 0 0 1 0 0 0 0 0 0
+                              WASHINGTON 0 1 1 0 0 1 0 0 0
+                                 UTILITY 0 0 0 0 0 1 0 0 0
+                                   BOARD 0 1 0 0 0 1 0 0 0
+                                    FIRM 0 1 0 0 0 1 0 1 1
+                                 PARTNER 0 0 0 0 0 1 0 1 0
+                                  MURPHY 0 0 1 1 0 1 0 2 1
+                                  STUART 0 0 1 0 0 1 0 0 0
+                               EIZENSTAT 0 0 1 1 0 0 0 1 1
+                                  POWELL 0 0 1 0 0 1 0 0 0
+                               GOLDSTEIN 0 0 1 0 0 1 0 0 0
+                                  FRAZER 0 0 1 0 0 0 0 0 0

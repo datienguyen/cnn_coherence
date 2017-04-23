@@ -1,0 +1,16 @@
+                                    INC. 1 1 1 3 0 1 0 1 1
+                                   CORP. 0 1 1 3 0 1 0 1 1
+                                  SYSTEM 0 1 0 0 0 1 0 0 0
+                               OPERATING 0 0 0 0 0 0 0 0 0
+                                SOFTWARE 0 1 0 0 0 1 0 2 1
+                               COMPUTERS 0 0 0 0 0 1 0 1 1
+                                  MODELS 0 0 0 0 0 1 0 1 1
+                                  FAMILY 0 1 0 0 0 1 0 1 1
+                                    LINE 0 0 0 0 0 1 0 1 1
+                                 NETWORK 0 0 0 0 0 1 0 1 1
+                                   TOWER 0 0 1 0 0 1 0 0 0
+                                     NCR 0 0 1 0 0 0 0 0 0
+                                MIDRANGE 0 0 0 0 0 0 0 0 0
+                                     HUB 0 0 0 0 0 0 0 1 1
+                                  NOVELL 0 0 1 0 0 1 0 0 0
+                                 NETWARE 0 0 1 0 0 0 0 0 0

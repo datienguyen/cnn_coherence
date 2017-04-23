@@ -1,0 +1,12 @@
+                                    NOV. 0 0 1 0 0 1 0 1 1
+                                    DEC. 0 0 1 0 0 1 0 1 1
+                                    INC. 1 1 1 0 0 1 0 1 1
+                                   SHARE 1 1 0 0 0 1 0 1 1
+                                  RECORD 0 0 0 0 0 1 0 0 1
+                                   STOCK 0 1 0 0 0 1 0 1 1
+                                 COMPANY 0 1 0 0 0 1 0 1 1
+                                  SHARES 1 1 0 0 0 1 0 1 1
+                                    EACH 0 0 0 0 0 0 1 1 1
+                                   SPLIT 0 0 0 0 0 1 0 1 1
+                                ALLWASTE 0 0 1 0 0 0 0 0 0
+                                STAFFORD 0 0 1 0 0 1 0 0 0

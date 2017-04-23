@@ -1,0 +1,4 @@
+(TOP (S (NP (organization (NNP Federal) (NNP Paper) (NNP Board) (NNP Co.))) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBD completed) (NP (NP (DT the) (ADJP (RB previously) (VBN announced)) (NN purchase)) (PP (IN of) (NP (NP (NNP Imperial) (NNP Cup) (NNP Corp.)) (, ,) (NP (NP (DT a) (ADJP (RB closely) (JJ held)) (NN maker)) (PP (IN of) (NP (NN paper) (NNS cups))) (VP (VBN based) (PP (IN in) (NP (NP (location (NNP Kenton))) (, ,) (NP (location (NNP Ohio)))))))))))))) (. .)) )
+(TOP (S (NP (NNS Terms)) (VP (AUX were) (RB n't) (VP (VBN disclosed))) (. .)) )
+(TOP (S (NP (NNP Imperial) (NNP Cup)) (VP (AUX has) (NP (NP (JJ annual) (NNS sales)) (PP (IN of) (NP (QP (RB approximately) (money ($ $) (CD 75) (CD million))))))) (. .)) )
+(TOP (S (NP (organization (NNP Federal) (NNP Paper) (NNP Board))) (VP (VBZ sells) (NP (NN paper) (CC and) (NN wood) (NNS products))) (. .)) )

@@ -1,0 +1,15 @@
+                                   SALES 0 1 0 0 0 1 0 1 1
+                                    YEAR 0 1 0 6 0 1 0 1 1
+                                BUILDING 0 0 0 0 0 1 0 0 0
+                                       % 1 1 0 4 0 0 0 1 1
+                                  PERIOD 0 0 0 0 0 1 0 1 1
+                                 BILLION 0 0 0 0 0 0 1 1 1
+                                 MILLION 0 0 0 7 0 0 1 1 1
+                                 CONCERN 1 0 0 0 0 1 0 0 0
+                                   GROUP 1 1 0 0 0 1 0 0 0
+                                  MONTHS 1 1 0 0 0 1 0 2 1
+                                  ESTATE 0 0 0 0 0 1 0 0 0
+                                  PROFIT 0 1 0 0 0 1 0 1 1
+                                      AB 0 0 1 0 0 0 0 2 1
+                                  KRONOR 0 0 0 0 0 0 0 1 1
+                                 SKANSKA 0 0 1 0 0 0 0 0 1

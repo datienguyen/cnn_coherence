@@ -1,0 +1,3 @@
+(TOP (FRAG (X (SYM @)) (NP (NNP Money) (NNP Market) (NNP Deposits-a)) (ADJP (CD 6.21) (NN %)) (X (SYM a)) (: -) (NP (NP (JJ Average) (NN rate)) (VP (VBN paid) (NP (date (NN yesterday))) (PP (IN by) (NP (NP (CD 100) (JJ large) (NNS banks) (CC and) (NNS thrifts)) (PP (IN in) (NP (DT the) (CD 10) (JJS largest) (JJ metropolitan) (NNS areas))))) (SBAR (IN as) (S (VP (VBN compiled) (PP (IN by) (NP (organization (NNP Bank) (NNP Rate) (NNP Monitor))))))))) (. .)) )
+(TOP (NP (NP (SYM b)) (: -) (NP (JJ Current) (JJ annual) (NN yield)) (. .)) )
+(TOP (NP (NP (VBN Guaranteed) (NN minimum)) (NP (percentage (CD 6) (NN %))) (. .)) )

@@ -1,0 +1,8 @@
+(TOP (S (NP (JJ Unknown) (NNP Chechen) (NNS gunmen)) (VP (NN abducted) (NP (NP (NP (CD three) (NNS Britons)) (CC and) (NP (CD one) (NNP New) (NNP Zealander))) (, ,) (NP (NP (DT all) (NNS employees)) (PP (IN of) (NP (NP (DT a) (JJ British) (NN telephone) (NN company)) (PP (IN in) (NP (NP (DT the) (NN capitol) (NN city)) (PP (IN of) (NP (NP (NNP Grozny)) (PP (IN in) (NP (location (NNP Chechnya))))))))))))) (. .)) )
+(TOP (S (NP (DT The) (organization (NNP British) (NNP Foreign) (NNP Office))) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (AUX had) (VP (VBN warned) (S (NP (DT the) (NN company)) (VP (TO to) (VP (VB withdraw) (PP (IN from) (NP (location (NNP Chechnya)))))))))))) (. .)) )
+(TOP (S (NP (QP (JJR More) (IN than) (CD 100)) (NNS people)) (VP (AUX are) (VP (AUXG being) (VP (VBN held) (S (ADJP (JJ captive))))))) )
+(TOP (S (NP (UCP (PP (IN in) (NP (location (NNP Chechnya)))) (CC and) (JJ anti-kidnapping)) (NNS officials)) (VP (AUX have) (VP (VBN become) (NP (NP (NNS victims)) (PP (IN of) (NP (JJ apparent) (NN hostage) (NNS takers)))))) (. .)) )
+(TOP (NP (NP (DT Some) (CD two) (NNS months)) (PP (IN after) (NP (DT the) (NN kidnapping))) (, ,)) )
+(TOP (S (NP (NNP Chechen) (NNS officials)) (VP (VBD reported) (S (VP (VBG finding) (NP (NP (DT the) (VBN severed) (NNS heads)) (PP (IN of) (NP (NP (DT the) (CD four) (VBN kidnapped) (NNS men)) (PP (IN near) (NP (NP (DT a) (JJ small) (NN village) (NN west)) (PP (IN of) (NP (NNP Grozny))))))))))) (. .)) )
+(TOP (S (NP (DT The) (NNP Chechen) (NN president)) (VP (VBD said) (SBAR (S (NP (NP (DT the) (NNS bodies)) (PP (IN of) (NP (DT the) (CD four) (NNS men)))) (VP (AUX were) (VP (VBN recovered))))))) )
+(TOP (S (CC but) (NP (EX there)) (VP (AUX was) (NP (DT no) (JJ further) (NN comment))) (. .)) )

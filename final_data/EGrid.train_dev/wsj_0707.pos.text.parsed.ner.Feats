@@ -1,0 +1,14 @@
+                                     AND 0 0 0 0 0 1 0 1 1
+                                    RATE 0 1 0 0 0 1 0 1 1
+                                   SOUTH 0 0 1 0 0 1 0 0 0
+                                  AFRICA 0 1 1 2 0 1 0 1 1
+                                    BANK 0 1 1 0 0 1 0 0 0
+                                 ACCOUNT 0 0 0 0 0 1 0 0 0
+                                 RESERVE 0 0 1 0 0 1 0 0 0
+                                 SURPLUS 0 0 0 0 0 1 0 2 1
+                                 QUARTER 0 1 0 6 0 1 0 2 1
+                                GOVERNOR 0 0 1 3 0 1 0 1 1
+                             IMPROVEMENT 0 0 0 0 0 1 0 1 1
+                                    RAND 0 0 0 0 0 0 0 2 1
+                                   CHRIS 0 0 1 0 0 1 0 0 0
+                                   STALS 0 0 1 0 0 0 0 0 0

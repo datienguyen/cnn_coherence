@@ -1,0 +1,14 @@
+                                    TIME 1 1 0 0 0 1 0 0 1
+                                   CENTS 0 0 0 7 0 1 0 1 1
+                                  SHARES 1 1 0 0 0 1 0 1 1
+                                  MARKET 0 1 0 0 0 1 0 1 1
+                                   STATE 0 1 0 0 0 1 0 1 1
+                                   CORP. 0 1 1 1 0 1 0 1 1
+                                 TRADING 0 1 0 0 0 1 0 1 1
+                               YESTERDAY 0 0 0 6 0 1 0 0 1
+                                  WALKER 0 0 1 0 0 1 0 0 0
+                               TELEPHONE 0 0 0 0 0 1 0 0 0
+                      TELECOMMUNICATIONS 0 0 1 0 0 0 0 0 0
+                                 SYSTEMS 0 0 0 0 0 1 0 1 1
+                            TRANSACTIONS 0 0 0 0 0 1 0 1 1
+                                SUPPLIER 0 0 0 0 0 0 0 1 1

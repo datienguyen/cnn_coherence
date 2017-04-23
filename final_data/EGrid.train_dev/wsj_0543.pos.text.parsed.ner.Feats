@@ -1,0 +1,14 @@
+                                    INC. 1 1 1 0 0 1 0 1 1
+                              INDUSTRIES 1 0 1 0 0 1 0 0 0
+                                   SHELL 0 0 0 0 0 1 0 0 0
+                                   CORP. 0 1 1 0 0 1 0 1 1
+                                CONTRACT 0 1 0 0 0 1 0 2 1
+                                   PARTS 1 0 0 0 0 1 0 1 1
+                                    ARMY 0 0 1 0 0 1 0 0 0
+                           MANUFACTURING 0 0 1 0 0 0 0 0 0
+                                    NAVY 0 0 1 0 0 1 0 0 0
+                                    SHIP 0 0 0 0 0 1 0 0 0
+                             CHAMBERLAIN 0 0 1 0 0 1 0 0 0
+                               ARTILLERY 0 0 0 0 0 0 0 0 0
+                                 CASINGS 0 0 0 0 0 0 0 1 1
+                                AVONDALE 0 0 1 0 0 0 0 0 0

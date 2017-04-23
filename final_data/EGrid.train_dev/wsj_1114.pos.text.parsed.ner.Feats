@@ -1,0 +1,14 @@
+                                    INC. 1 1 1 0 0 1 0 1 1
+                               PRESIDENT 0 1 0 0 0 1 0 0 0
+                                DIRECTOR 0 0 0 0 0 1 0 1 1
+                                      W. 0 0 1 0 0 0 0 0 0
+                                    VICE 0 0 0 0 0 1 0 0 0
+                                 RICHARD 0 0 1 0 0 1 0 0 0
+                                 MEMBERS 0 0 0 0 0 1 0 1 1
+                                INDUSTRY 0 1 0 0 0 1 0 0 0
+                                   BOARD 0 1 0 0 0 1 0 1 1
+                               TREASURER 0 0 0 0 0 1 0 1 0
+                                SUPPLIER 0 0 0 0 0 0 0 1 1
+                          TRANSPORTATION 0 0 0 0 0 1 0 0 0
+                                    LOCK 0 0 1 1 0 0 0 1 1
+                          OWENS-ILLINOIS 0 0 1 0 0 0 0 0 0

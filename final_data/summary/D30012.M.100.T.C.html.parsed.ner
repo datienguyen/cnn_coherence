@@ -1,0 +1,8 @@
+(TOP (S (NP (DT The) (NNP Leonid) (NN meteor) (NNS showers)) (VP (VBP occur) (NP (NP (DT every) (CD 33) (NNS years)) (PP (IN as) (NP (DT the) (JJ Tempel-Tuttle) (JJ comet) (NNS speeds)))) (PP (IN through) (NP (NP (DT the) (JJ inner) (JJ solar) (NN system)) (VP (VBG shedding) (NP (NP (NNS swarms)) (PP (IN of) (NP (NNS particles)))) (SBAR (IN as) (S (NP (PRP it)) (VP (VBZ nears) (NP (DT the) (NN sun))))))))) (. .)) )
+(TOP (S (NP (DT The) (JJ spectacular) (date (CD 1966)) (NN display)) (VP (VBD peaked) (PP (IN at) (NP (NP (CD 150,000) (NNS meteors)) (PP (IN per) (NP (NN hour)))))) (. .)) )
+(TOP (S (SBAR (IN As) (S (NP (DT the) (date (CD 1998)) (NNS showers)) (VP (VBD approached)))) (, ,) (NP (NNS scientists)) (VP (VBD disagreed) (PP (IN about) (NP (NP (DT the) (NN vulnerability)) (PP (IN of) (NP (DT the) (ADJP (CD 600) (JJ odd)) (JJ commercial) (CC and) (JJ military) (NN earth) (NN orbit) (NNS satellites)))))) (. .)) )
+(TOP (S (NP (NNS Precautions)) (VP (AUX were) (VP (VBN taken) (S (VP (TO to) (VP (VB place) (NP (NNS satellites)) (PP (IN in) (NP (DT a) (JJ protective) (NNS modes) (CC or) (NNS angles)))))))) (. .)) )
+(TOP (S (NP (DT The) (NN storm)) (VP (AUX was) (ADJP (RB disappointingly) (JJ light)) (PP (VBN compared) (PP (TO to) (NP (date (CD 1966)))))) (. .)) )
+(TOP (S (ADVP (RB Afterwards)) (, ,) (NP (DT no) (NNS problems)) (VP (AUX were) (VP (VBN reported))) (. .)) )
+(TOP (S (NP (DT The) (NN viewing)) (VP (AUX was) (ADVP (RB best)) (PP (IN in) (NP (location (NNP Asia)))) (, ,) (ADJP (JJ poor)) (PP (IN in) (NP (DT the) (NNPS States)))) (. .)) )
+(TOP (S (NP (NNS Scientists)) (VP (VBD built) (NP (NP (JJ unique) (NN equipment)) (SBAR (S (VP (TO to) (VP (VB conduct) (NP (PRP$ their) (NNS experiments)))))))) (. .)) )

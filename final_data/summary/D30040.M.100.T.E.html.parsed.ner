@@ -1,0 +1,8 @@
+(TOP (S (PP (IN After) (NP (NP (DT a) (NN delay)) (PP (IN of) (NP (QP (RB almost) (CD two)) (NNS years))) (PP (IN because) (IN of) (NP (NN security) (NNS questions))))) (, ,) (NP (DT the) (NNPS Palestinians)) (VP (VBD opened) (NP (PRP$ their) (JJ first) (JJ international) (NN airport)) (PP (IN in) (NP (NP (DT a) (JJ rare) (NN example)) (PP (IN of) (NP (NP (NN cooperation)) (PP (IN between) (NP (location (NNP Israel)) (CC and) (location (NNP Palestine))))))))) (. .)) )
+(TOP (S (NP (location (NNP Israel))) (VP (MD will) (VP (VB continue) (S (VP (TO to) (VP (VB share) (NP (NN security) (NNS responsibilities)) (PP (IN at) (NP (DT the) (NN airport))) (PP (IN with) (NP (DT the) (NNPS Palestinians)))))))) (. .)) )
+(TOP (S (NP (DT An) (location (NNP Egypt) (NNP Air)) (NN plane)) (VP (AUX was) (NP (DT the) (JJ first)))) )
+(TOP (S (VP (TO to) (VP (VB touch) (PRT (RP down)) (PP (IN at) (NP (DT the) (ADJP (RB newly) (VBN opened)) (location (NNP Gaza) (NNP International) (NNP Airport)))))) (. .)) )
+(TOP (S (NP (DT The) (NN highlight)) (, ,) (ADVP (RB however)) (, ,) (VP (AUX was) (NP (NP (DT the) (NN landing)) (PP (IN of) (NP (DT the) (JJ first) (NNP Palestinian) (NNP Airlines) (NN plane))))) (. .)) )
+(TOP (S (NP (NN Security) (NNS concerns)) (VP (VBP continue) (S (VP (TO to) (VP (VB plague) (NP (NP (DT the) (NN running)) (PP (IN of) (NP (DT the) (NN airport))))))))) )
+(TOP (SBAR (IN as) (S (NP (JJ Israeli) (NN security) (NNS officials)) (ADVP (RB first)) (VP (VBD threatened) (S (VP (TO to) (VP (VB close) (PRT (RP down)) (NP (DT the) (NN airport)))))))) )
+(TOP (S (CC and) (ADVP (RB later)) (VP (VBD delayed) (NP (NP (DT the) (NN departure)) (PP (IN of) (NP (CD two) (NNS planes)))) (PP (IN because) (IN of) (NP (NN security) (NNS disputes)))) (. .)) )

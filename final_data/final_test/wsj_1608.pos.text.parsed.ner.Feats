@@ -1,0 +1,15 @@
+                                    TIME 1 1 0 0 0 1 0 1 1
+                                  AUGUST 0 1 1 6 0 1 0 0 1
+                               SEPTEMBER 0 1 1 6 0 1 0 0 1
+                                    YEAR 0 1 0 0 0 1 0 1 1
+                                       % 1 1 0 4 0 0 0 1 1
+                                   PRICE 0 1 0 0 0 1 0 0 0
+                                   MONTH 1 1 0 0 0 1 0 1 1
+                                  PRICES 1 1 0 0 0 1 0 1 1
+                                   INDEX 0 1 0 0 0 1 0 3 1
+                              GOVERNMENT 0 1 0 0 0 1 0 1 1
+                                   BASIS 0 0 0 0 0 1 0 1 1
+                                    RISE 0 0 0 0 0 1 0 1 1
+                             SWITZERLAND 0 0 1 2 0 1 0 1 1
+                                  ENERGY 0 0 0 0 0 1 0 0 0
+                                   180.9 0 0 0 0 0 0 0 0 1

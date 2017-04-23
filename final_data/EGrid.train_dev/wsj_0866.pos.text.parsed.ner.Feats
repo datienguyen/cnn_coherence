@@ -1,0 +1,17 @@
+                                DIRECTOR 0 0 0 0 0 1 0 1 1
+                              SUBSIDIARY 0 0 0 0 0 1 0 2 1
+                                    BANK 0 1 1 0 0 1 0 1 0
+                                 UTILITY 0 0 0 0 0 1 0 1 1
+                                     GAS 0 0 0 0 0 1 0 0 0
+                                    LOAN 0 0 0 0 0 1 0 0 0
+                                INDUSTRY 0 1 0 0 0 1 0 0 0
+                                 SAVINGS 0 0 0 0 0 1 0 0 0
+                            CONSTRUCTION 0 1 0 0 0 1 0 0 0
+                              CONSULTANT 0 0 0 0 0 1 0 1 0
+                                 MICHAEL 0 0 1 0 0 1 0 0 0
+                                  EDWARD 0 0 1 0 0 1 0 0 0
+                                      B. 0 0 1 0 0 1 0 0 0
+                                      M. 0 0 1 0 0 0 0 0 0
+                                   JAGER 0 0 1 1 0 0 0 1 1
+                                PRIMERIT 0 0 1 0 0 0 0 0 0
+                                   BEROL 0 0 1 1 0 0 0 1 1

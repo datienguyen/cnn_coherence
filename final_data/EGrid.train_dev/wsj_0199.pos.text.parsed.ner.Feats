@@ -1,0 +1,14 @@
+                                    INC. 1 1 1 0 0 1 0 1 1
+                                    YEAR 0 1 0 0 0 1 0 1 1
+                                     CO. 1 1 1 3 0 1 0 1 1
+                                   TERMS 0 0 0 0 0 1 0 0 1
+                               AGREEMENT 0 0 0 0 0 1 0 1 1
+                                DELIVERY 0 0 0 0 0 1 0 0 1
+                              INDUSTRIES 1 0 1 0 0 1 0 0 0
+                                 CHICAGO 0 0 1 2 0 1 0 0 1
+                                 QUARTER 0 1 0 6 0 1 0 1 1
+                                   TRAIN 0 0 1 0 0 1 0 0 0
+                                 TRINITY 0 0 1 0 0 0 0 0 1
+                                 RAILCAR 0 0 1 0 0 0 0 0 0
+                               PLATFORMS 0 0 0 0 0 1 0 1 1
+                                 TRAILER 0 0 0 0 0 0 0 0 0

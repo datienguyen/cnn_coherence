@@ -1,0 +1,2 @@
+(TOP (S (NP (person (NNP Steven) (NNP F.) (NNP Kaplan))) (VP (AUX was) (VP (VBN named) (S (NP (NP (DT a) (JJ senior) (NN vice) (NN president)) (PP (IN of) (NP (DT this) (NNS graphics) (NN equipment) (NN company))))))) (. .)) )
+(TOP (S (NP (PRP He)) (VP (VBZ retains) (NP (NP (PRP$ his) (JJ current) (NNS positions)) (PP (IN as) (NP (NP (NP (JJ chief) (JJ strategic) (NN officer)) (PP (IN of) (NP (organization (NNP AM) (NNP International))))) (CC and) (NP (NP (NN president)) (PP (IN of) (NP (organization (NNP AM) (NNPS Ventures))))))))) (. .)) )

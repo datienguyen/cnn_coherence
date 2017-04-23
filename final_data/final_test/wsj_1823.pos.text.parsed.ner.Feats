@@ -1,0 +1,16 @@
+                               SEPTEMBER 0 1 1 6 0 1 0 0 1
+                                    YEAR 0 1 0 0 0 1 0 1 1
+                                    FIRM 0 1 0 0 0 1 0 1 1
+                                       % 1 1 0 0 0 0 0 1 1
+                                  MONTHS 1 1 0 0 0 1 0 1 1
+                                     ONE 0 0 0 0 0 1 0 0 1
+                                 MARKETS 0 1 0 0 0 1 0 1 1
+                                   THREE 0 0 0 0 0 1 0 1 1
+                                   FUNDS 0 1 0 0 0 1 0 1 1
+                              SECURITIES 0 1 1 3 0 1 0 1 1
+                                    FUND 0 1 0 0 0 1 0 2 1
+                              CURRENCIES 0 0 0 0 0 1 0 1 1
+                               COMMODITY 0 0 0 0 0 0 0 0 0
+                                  LOSERS 0 0 0 0 0 1 0 0 1
+                                 GAINERS 0 0 0 0 0 0 0 0 1
+                                 NORWOOD 0 0 1 0 0 1 0 0 1

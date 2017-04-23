@@ -1,0 +1,3 @@
+(TOP (S (NP (NNP Trinity) (NNPS Industries) (NNP Inc.)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBD reached) (NP (DT a) (JJ preliminary) (NN agreement) (S (VP (TO to) (VP (VB sell) (NP (CD 500) (NNP railcar) (NNS platforms)) (PP (TO to) (NP (organization (NP (NN Trailer) (NNP Train) (NNP Co.)) (PP (IN of) (NP (location (NNP Chicago))))))))))))))) (. .)) )
+(TOP (S (NP (NNS Terms)) (VP (AUX were) (RB n't) (VP (VBN disclosed))) (. .)) )
+(TOP (S (NP (NNP Trinity)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBZ plans) (S (VP (TO to) (VP (VB begin) (NP (NN delivery)) (PP (IN in) (NP (date (NP (DT the) (JJ first) (NN quarter)) (PP (IN of) (NP (JJ next) (NN year))))))))))))) (. .)) )

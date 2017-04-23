@@ -1,0 +1,4 @@
+(TOP (S (NP (NNP Apogee) (NNP Robotics) (NNP Inc.)) (VP (VBD said) (SBAR (S (NP (PRP$ its) (NN board)) (VP (VBD extended) (PP (IN until) (NP (NNP Feb.) (CD 1))) (NP (NP (DT the) (NN exercise) (NN period)) (PP (IN of) (NP (NP (NP (NNP Apogee) (POS 's)) (JJ existing) (NN stock) (NN purchase) (NNS warrants)) (ADJP (JJ outstanding))))))))) (. .)) )
+(TOP (S (NP (DT The) (NN expiration) (NN date)) (VP (AUX had) (VP (AUX been) (NP (NNP Nov.) (CD 3)))) (. .)) )
+(TOP (S (NP (NP (DT Each)) (PP (IN of) (NP (DT the) (CD 1,075,000) (NNS warrants)))) (VP (VBP entitle) (S (NP (DT the) (NNS holders)) (VP (TO to) (VP (VB purchase) (NP (NP (CD one) (NN share)) (PP (IN of) (NP (NNP Apogee) (JJ common) (NN stock)))) (PP (IN for) (NP ($ $) (CD 2.25))))))) (. .)) )
+(TOP (S (NP (NNP Apogee)) (VP (AUX was) (VP (VBN quoted) (PP (IN in) (NP (DT the) (JJ over-the-counter) (NN market))) (NP (date (NN yesterday))) (PP (IN at) (NP (money (NP ($ $) (CD 2)) (VP (VBN bid))))))) (. .)) )

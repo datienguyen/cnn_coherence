@@ -1,0 +1,13 @@
+                                    CASH 0 0 0 0 0 1 0 0 0
+                                DIVISION 0 0 0 0 0 1 0 1 1
+                                   CORP. 0 1 1 3 0 1 0 1 1
+                                 GENERAL 0 1 1 0 0 1 0 0 0
+                                  MOTORS 0 0 1 0 0 1 0 0 0
+                                VEHICLES 0 0 0 0 0 1 0 1 1
+                                   LINES 0 0 0 0 0 1 0 2 1
+                                  MODELS 0 0 0 0 0 1 0 2 1
+                                SUBURBAN 0 0 1 0 0 0 0 0 0
+                                   TRUCK 0 0 0 0 0 1 0 0 0
+                              INCENTIVES 0 0 0 0 0 1 0 1 1
+                               CHEVROLET 0 0 1 3 0 1 0 0 1
+                                  BLAZER 0 0 1 0 0 1 0 0 0

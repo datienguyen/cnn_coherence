@@ -1,0 +1,16 @@
+                               PRESIDENT 0 1 0 0 0 1 0 0 1
+                                 OFFICER 0 1 0 0 0 1 0 1 1
+                                 COMPANY 0 1 0 0 0 1 0 1 1
+                                     MR. 0 0 1 0 0 0 0 0 0
+                                DIRECTOR 0 0 0 0 0 1 0 1 0
+                                  ROBERT 0 0 1 0 0 1 0 0 0
+                                 CONCERN 1 0 0 0 0 1 0 1 1
+                                      E. 0 0 1 0 0 0 0 0 0
+                                    CARL 0 0 1 0 0 1 0 0 0
+                                    POST 0 0 0 0 0 1 0 1 1
+                                CHAIRMAN 1 1 0 0 0 1 0 1 1
+                                      C. 0 0 1 1 0 0 0 1 1
+                           MANUFACTURING 0 0 0 0 0 0 0 0 0
+                                PFEIFFER 0 0 1 1 0 1 0 2 1
+                        SPECIALTY-METALS 0 0 0 0 0 0 0 0 0
+                                  SNYDER 0 0 1 0 0 1 0 0 0

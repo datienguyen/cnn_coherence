@@ -1,0 +1,14 @@
+                                    INC. 1 1 1 0 0 1 0 1 1
+                                 MILLION 0 0 0 0 0 0 1 2 1
+                                       % 1 1 0 4 0 0 0 1 1
+                                  SHARES 1 1 0 0 0 1 0 1 1
+                                  MARKET 0 1 0 0 0 1 0 1 1
+                                 COMPANY 0 1 0 0 0 1 0 1 1
+                                PURCHASE 1 1 0 0 0 1 0 1 1
+                             DISTRIBUTOR 1 0 0 0 0 1 0 1 0
+                                   BOARD 0 1 0 0 0 1 0 1 1
+                                PRODUCTS 0 1 0 0 0 1 0 1 1
+                            TRANSACTIONS 0 0 0 0 0 1 0 1 1
+                               PURCHASES 0 0 0 0 0 1 0 1 1
+                       PERSONAL-COMPUTER 0 0 0 0 0 0 0 0 0
+                            MICROAMERICA 0 0 1 0 0 0 0 1 0

@@ -1,0 +1,2 @@
+(TOP (NP (NP (NP (VBN Annualized) (NN interest) (NNS rates)) (PP (IN on) (NP (JJ certain) (NNS investments))) (SBAR (IN as) (S (VP (VBN reported) (PP (IN by) (NP (DT the) (organization (NNP Federal) (NNP Reserve) (NNP Board)))) (PP (IN on) (NP (DT a) (JJ weekly-average) (NN basis))))))) (: :) (NP (NP (CD 1989)) (CC and) (NP (NP (date (NNP Wednesday))) (NP (date (NNP October) (CD 4) (, ,) (CD 1989))))) (. .)) )
+(TOP (S (NP (NNS c-Yields)) (, ,) (VP (VBN adjusted) (PP (IN for) (NP (JJ constant) (NN maturity)))) (. .)) )

@@ -1,0 +1,3 @@
+(TOP (S (NP (NP (person (NNP Robert) (NNP P.) (NNP Bulseco))) (, ,) (ADJP (NP (CD 44) (NNS years)) (JJ old)) (, ,)) (VP (AUX was) (VP (VBN named) (S (NP (NP (NP (NN president)) (CC and) (NP (JJ chief) (JJ administrative) (NN officer))) (PP (IN of) (NP (DT this) (JJ regional) (JJ commercial) (NN bank))))))) (. .)) )
+(TOP (S (NP (DT Both) (NNS posts)) (VP (AUX had) (VP (AUX been) (ADJP (JJ vacant)))) (. .)) )
+(TOP (S (NP (NP (person (NNP Robert) (NNP Robie))) (, ,) (NP (CD 51)) (, ,)) (VP (AUX was) (VP (VBN named) (PP (TO to) (NP (NP (DT the) (JJ new) (NNS positions)) (PP (IN of) (NP (NP (NN vice) (NN chairman)) (CC and) (NP (JJ chief) (NN credit) (NN officer)))))))) (. .)) )

@@ -1,0 +1,17 @@
+                               PRESIDENT 0 1 0 0 0 1 0 2 1
+                               EXECUTIVE 0 0 0 0 0 1 0 1 0
+                                 OFFICER 0 1 0 0 0 1 0 1 1
+                                    VICE 0 0 0 0 0 1 0 0 0
+                                POSITION 1 0 0 0 0 1 0 1 1
+                                PRODUCER 0 0 0 0 0 1 0 1 1
+                                     JR. 0 0 1 1 0 1 0 1 1
+                                   FRANK 0 0 1 0 0 1 0 0 0
+                                   BOARD 0 1 0 0 0 1 0 1 1
+                                CHAIRMAN 1 1 0 0 0 1 0 1 1
+                                      J. 0 0 1 0 0 0 0 0 0
+                                 JOHNSON 0 1 1 1 0 1 0 1 0
+                               TREASURER 0 0 0 0 0 1 0 0 1
+                                     JOE 0 0 1 0 0 1 0 0 0
+                               SANDERSON 0 0 1 1 0 0 0 1 1
+                                 POULTRY 0 0 0 0 0 0 0 0 0
+                                   ODELL 0 0 1 0 0 0 0 0 0

@@ -1,0 +1,3 @@
+(TOP (NP (organization (NNP INGERSOLL-RAND) (NNP Co) (. .))) )
+(TOP (NP (-LRB- -LRB-) (NP (location (NNP Woodcliff) (NNP Lake))) (, ,) (NP (NNP N.J)) (. .)) )
+(TOP (S (-RRB- -RRB-) (: --) (NP (NP (person (NNP William) (NNP G.) (NNP Kuhns))) (, ,) (NP (NP (JJ former) (NX (NX (NN chairman)) (CC and) (NX (JJ chief) (JJ executive) (NN officer)))) (PP (IN of) (NP (organization (NNP General) (NNP Public) (NNP Utilities) (NNP Corp.))))) (, ,)) (VP (AUX was) (VP (VBN elected) (S (NP (NP (DT a) (NN director)) (PP (IN of) (NP (NP (DT this) (NN maker)) (PP (IN of) (NP (UCP (JJ industrial) (CC and) (NN construction)) (NN equipment))))))) (, ,) (S (VP (VBG increasing) (NP (NN board) (NN membership)) (PP (TO to) (NP (CD 10))))))) (. .)) )

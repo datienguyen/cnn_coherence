@@ -1,0 +1,8 @@
+(TOP (S (NP (NP (NP (JJ Terrorist) (NNS bombings)) (PP (IN of) (NP (DT the) (NNP U.S.) (NNS Embassies)))) (PP (IN in) (NP (NP (location (NNP Nairobi)) (, ,) (location (NNP Kenya)) (CC and) (NNP Dar) (FW es) (FW Salaam)) (, ,) (NP (NNP Tanzania)))) (PP (IN on) (NP (NNP August) (CD 7))) (NP (CD 1998))) (VP (VBD killed) (NP (NP (NP (CD 248)) (PP (IN in) (NP (NNP Nairobi)))) (, ,) (CC and) (NP (NP (CD 11)) (PP (IN in) (NP (NNP Dar)))) (NX (FW es) (FW Salaam)))) (. .)) )
+(TOP (S (PP (IN In) (NP (NNP Nairobi))) (S (NP (date (CD 5400))) (VP (AUX were) (VP (VBN injured)))) (CC and) (S (NP (CD 97)) (VP (ADVP (RB fully) (CC or) (RB partially)) (VBN blinded))) (. .)) )
+(TOP (S (PP (IN In) (NP (NP (DT the) (CD 76) (NNS days)) (VP (VBG following)))) (NP (DT the) (NNS bombings) (NN evidence)) (VP (AUX was) (VP (VBN gathered) (S (VP (VBG linking) (NP (DT the) (NNS perpetrators)) (PP (TO to) (NP (NP (DT the) (NNP Al) (NNP Qaeda) (NN organization)) (PP (IN of) (NP (NNP Osama))) (ADJP (RB bin) (JJ Laden)) (, ,)))))))) )
+(TOP (S (NP (JJ several) (NNS indictments)) (VP (AUX were) (VP (VBN made)))) )
+(TOP (S (CC and) (NP (JJ several) (NNS suspects)) (VP (AUX were) (VP (VBN arrested)))) )
+(TOP (S (CC but) (NP (DT no) (NN one)) (VP (AUX had) (ADVP (RB yet)) (VP (AUX been) (VP (VBN brought) (PP (TO to) (NP (NN trial)))))) (. .)) )
+(TOP (S (NP (NP (DT A) (JJ key) (NN figure)) (PP (IN in) (NP (DT the) (NNP Nairobi) (NN bombing)))) (, ,) (NP (NP (person (NNP Abdallah) (NNP Mohammed) (NNP Fazul))) (, ,) (NP (NP (NN head)) (PP (IN of) (NP (NP (NNP Al) (NNP Qaeda)) (PP (IN in) (NP (location (NNP Kenya))))))) (, ,)) (VP (AUX had) (VP (VBN disappeared)))) )
+(TOP (S (CC and) (VP (AUX was) (ADVP (RB still)) (PP (IN at) (ADJP (JJ large)))) (. .)) )

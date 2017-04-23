@@ -1,0 +1,3 @@
+(TOP (S (NP (organization (NNP DILLARD) (NNP DEPARTMENT) (NNPS STORES) (NNP Inc.))) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBD offered) (NP (NP (QP (money ($ $) (CD 50) (CD million)))) (PP (IN of) (NP (NP (ADJP (QP (CD 9) (CD 1\)) (NN %)) (NNS debentures)) (ADJP (JJ due) (NP (date (CD 2001)))) (PP (IN at) (NP (NN par)))))))))) (. .)) )
+(TOP (S (NP (DT The) (NAC (location (NNP Little) (NNP Rock)) (, ,) (NNP Ark.) (, ,)) (NN department-store) (NN retailer)) (VP (VBD said) (SBAR (S (NP (NNS proceeds)) (VP (MD will) (VP (AUX be) (VP (VBN used) (S (VP (TO to) (VP (VB reduce) (NP (JJ short-term) (NN debt))))))))))) (. .)) )
+(TOP (S (NP (organization (NNP Goldman) (, ,) (NNP Sachs)) (CC &) (NNP Co.)) (VP (AUX was) (NP (DT the) (NN underwriter))) (. .)) )

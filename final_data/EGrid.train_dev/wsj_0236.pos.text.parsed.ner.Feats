@@ -1,0 +1,17 @@
+                                    U.S. 0 1 1 0 0 1 0 0 0
+                                    MAIL 0 0 0 0 0 1 0 0 0
+                                  PIECES 0 0 0 0 0 1 0 2 1
+                                   CORP. 0 1 1 1 0 1 0 1 1
+                                CONTRACT 0 1 0 0 0 1 0 1 1
+                                   TERMS 0 0 0 0 0 1 0 1 1
+                                 SERVICE 0 0 1 3 0 1 0 1 1
+                                    HOUR 0 0 0 0 0 1 0 1 0
+                                  MARTIN 0 1 1 0 0 1 0 0 0
+                                MARIETTA 0 0 1 1 0 1 0 1 1
+                                  POSTAL 0 0 1 0 0 0 0 0 0
+                                MACHINES 0 1 0 0 0 1 0 2 1
+                                 OFFICES 0 0 0 0 0 1 0 1 1
+                                     ZIP 0 0 0 0 0 0 0 0 0
+                                    CODE 0 0 0 0 0 1 0 1 1
+                               MAGAZINES 0 0 0 0 0 1 0 0 0
+                                 PARCELS 0 0 0 0 0 1 0 1 1

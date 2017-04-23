@@ -1,0 +1,13 @@
+                               PRESIDENT 0 1 0 0 0 1 0 1 1
+                                 COMPANY 0 1 0 0 0 1 0 1 1
+                                RESEARCH 0 1 0 0 0 1 0 0 0
+                             DEVELOPMENT 0 0 0 0 0 1 0 1 1
+                                    VICE 0 0 0 0 0 1 0 0 0
+                                 MANAGER 1 0 0 0 0 1 0 1 0
+                                    POST 0 0 0 0 0 1 0 1 0
+                                      R. 0 0 1 0 0 0 0 0 0
+                                   STEEL 0 0 0 0 0 1 0 0 0
+                                  DENNIS 0 0 1 0 0 1 0 0 0
+                                 ENICHEM 0 0 1 0 0 0 0 0 0
+                                AMERICAS 0 0 1 2 0 0 0 1 1
+                                 MANGINO 0 0 1 1 0 0 0 1 1

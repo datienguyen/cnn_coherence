@@ -1,0 +1,4 @@
+(TOP (S (NP (NNP Eaton) (NNP Corp.)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBD sold) (NP (PRP$ its) (organization (NNP Pacific) (NNP Sierra) (NNP Research) (NNP Corp.)) (NN unit)) (PP (TO to) (NP (NP (DT a) (NN company)) (VP (VBN formed) (PP (IN by) (NP (NP (NNS employees)) (PP (IN of) (NP (DT that) (NN unit)))))))))))) (. .)) )
+(TOP (S (NP (NNS Terms)) (VP (AUX were) (RB n't) (VP (VBN disclosed))) (. .)) )
+(TOP (S (NP (NP (NNP Pacific) (NNP Sierra)) (, ,) (VP (VBN based) (PP (IN in) (NP (location (NNP Los) (NNP Angeles))))) (, ,)) (VP (VP (AUX has) (NP (QP (RB about) (CD 200)) (NNS employees))) (CC and) (VP (VBZ supplies) (NP (NP (JJ professional) (NNS services)) (CC and) (NP (JJ advanced) (NNS products))) (PP (TO to) (NP (NN industry))))) (. .)) )
+(TOP (S (NP (NNP Eaton)) (VP (AUX is) (NP (DT an) (JJ automotive) (NNS parts) (, ,) (NNS controls) (CC and) (NN aerospace) (NNS electronics) (NN concern))) (. .)) )

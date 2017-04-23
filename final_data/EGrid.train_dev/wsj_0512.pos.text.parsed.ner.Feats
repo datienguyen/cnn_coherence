@@ -1,0 +1,15 @@
+                               PRESIDENT 0 1 0 0 0 1 0 1 0
+                               EXECUTIVE 0 0 0 0 0 1 0 0 0
+                                 OFFICER 0 1 0 0 0 1 0 1 1
+                                     MR. 0 0 1 0 0 0 0 0 0
+                                POSITION 1 0 0 0 0 1 0 1 1
+                                     WAY 1 0 1 0 0 1 0 1 1
+                                      A. 0 0 1 0 0 0 0 0 0
+                                OPERATOR 0 0 0 0 0 1 0 1 1
+                                    POST 0 0 0 0 0 1 0 1 1
+                                CHAIRMAN 1 1 0 0 0 1 0 0 1
+                              RESTAURANT 0 0 0 0 0 1 0 0 0
+                                 CHARLES 0 0 1 0 0 1 0 0 0
+                                   ALVIN 0 0 1 0 0 0 0 0 0
+                                       D 0 0 1 1 0 1 0 1 1
+                                  MCCALL 0 0 1 0 0 1 0 1 1

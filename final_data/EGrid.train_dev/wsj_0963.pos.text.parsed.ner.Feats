@@ -1,0 +1,14 @@
+                                    INC. 1 1 1 0 0 1 0 1 1
+                               PRESIDENT 0 1 0 0 0 1 0 1 1
+                               EXECUTIVE 0 0 0 0 0 1 0 0 0
+                                 OFFICER 0 1 0 0 0 1 0 1 1
+                                 COMPANY 0 1 0 0 0 1 0 1 1
+                                DIRECTOR 0 0 0 0 0 1 0 1 1
+                                   YEARS 1 1 0 0 0 1 0 1 1
+                                      A. 0 0 1 0 0 0 0 0 0
+                                 UTILITY 0 0 0 0 0 1 0 0 0
+                                 DETROIT 0 0 1 2 0 1 0 0 1
+                                 VACANCY 0 0 0 0 0 0 0 1 1
+                                  MILLER 0 0 1 1 0 1 0 1 1
+                                  EUGENE 0 0 1 0 0 1 0 0 0
+                                COMERICA 0 0 1 0 0 0 0 0 0

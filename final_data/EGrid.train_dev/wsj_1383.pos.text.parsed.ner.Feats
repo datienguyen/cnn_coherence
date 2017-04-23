@@ -1,0 +1,17 @@
+                                   ABOUT 0 0 0 0 0 0 1 1 1
+                                   SALES 0 1 0 0 0 1 0 1 1
+                                 COMPANY 0 1 0 0 0 1 0 1 0
+                             TRANSACTION 0 1 0 0 0 1 0 1 1
+                               OPERATION 0 0 0 0 0 1 0 1 1
+                                PURCHASE 1 1 0 0 0 1 0 1 1
+                                   GROUP 1 1 0 0 0 1 0 1 0
+                                   PARIS 0 0 1 2 0 1 0 0 0
+                                CHEMICAL 0 1 0 0 0 1 0 0 0
+                                   CORP. 0 1 1 3 0 1 0 1 1
+                                   TERMS 0 0 0 0 0 1 0 1 1
+                                    S.A. 0 0 1 0 0 0 0 1 1
+                                  MINING 0 0 0 0 0 0 0 0 0
+                               SPECIALTY 0 0 0 0 0 0 0 0 0
+                               CHEMICALS 0 0 0 0 0 1 0 1 0
+                                     RTZ 0 0 1 0 0 0 0 0 0
+                           RHONE-POULENC 0 0 1 0 0 0 0 1 1
