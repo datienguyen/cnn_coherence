@@ -1,2 +1,0 @@
-(TOP (S (NP (person (NNP Richard) (NNP J.) (NNP Pinola))) (VP (AUX was) (VP (VBN elected) (PP (TO to) (NP (NP (DT the) (NN board)) (PP (IN of) (NP (DT this) (NNS personnel) (NN consulting) (NN concern))))) (, ,) (S (VP (VBG increasing) (NP (PRP$ its) (NN size)) (PP (TO to) (NP (CD nine) (NNS members))))))) (. .)) )
-(TOP (S (NP (NNP Mr.) (NNP Pinola)) (VP (AUX is) (NP (NP (NP (NN president)) (CC and) (NP (JJ chief) (VBG operating) (NN officer))) (PP (IN of) (NP (NNP Penn) (NNP Mutual) (NNP Life) (NNP Insurance) (NNP Co))))) (. .)) )

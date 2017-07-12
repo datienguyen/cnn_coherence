@@ -1,4 +1,0 @@
-(TOP (NP (organization (DT THE) (NNP R.H.) (NNP MACY) (CC &) (NNP CO) (. .))) )
-(TOP (S (NP (NN department-store) (NN chain)) (VP (AUX is) (RB n't) (PP (IN for) (NP (NN sale)))) (. .)) )
-(TOP (S (PP (IN In) (NP (NP (date (NN yesterday)) (POS 's)) (NN edition))) (, ,) (NP (PRP it)) (VP (AUX was) (VP (ADVP (RB incorrectly)) (VBN included) (PP (IN with) (NP (NP (DT a) (NN list)) (PP (IN of) (NP (NP (location (NNP New) (NNP York)) (NNS chains)) (PP (IN up) (PP (IN for) (NP (NN sale)))))))))) (. .)) )
-(TOP (FRAG (-LRB- -LRB-) (NP (VB See)) (: :) (NP (`` `) (NP (`` `) (NP (NP (NNP Media)) (: :) (S (S (NP (JJ Third-Quarter) (NNS Results)) (VP (VBN Mixed) (PP (IN At) (NP (NNPS Newspapers))))) (: --) (S (NP (NN Newsprint) (NNS Prices)) (ADJP (JJ Favorable))) (, ,) (CC But) (S (NP (NNP Advertising) (NN Linage)) (VP (AUX Was) (ADJP (JJ Flat) (CC or) (JJ Declining)))))) ('' ')) ('' ') (: --) (NP (NNP WSJ) (NNP Oct.) (CD 16) (, ,) (date (CD 1989)))) (-RRB- -RRB-)) )

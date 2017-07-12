@@ -1,2 +1,0 @@
-(TOP (S (NP (person (NNP Jeffrey) (NNP E.) (NNP Levin))) (VP (AUX was) (VP (VBN named) (S (NP (NP (NP (NN vice) (NN president)) (CC and) (NP (JJ chief) (NN economist))) (PP (IN of) (NP (DT this) (NN commodity) (NNS futures) (CC and) (NNS options) (NN exchange))))))) (. .)) )
-(TOP (S (NP (PRP He)) (VP (AUX had) (VP (AUX been) (NP (NP (JJ associate) (NN professor)) (PP (IN in) (NP (NP (DT the) (NN department)) (PP (IN of) (NP (NN finance))))) (PP (IN at) (NP (organization (NNP Seton) (NNP Hall) (NNP University))))))) (. .)) )

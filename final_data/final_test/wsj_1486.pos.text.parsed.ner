@@ -1,7 +1,0 @@
-(TOP (S (NP (VBG Following)) (VP (AUX is) (NP (NP (DT a) (JJ weekly) (NN listing)) (PP (IN of) (NP (NP (JJ unadited) (JJ net) (NN asset) (NNS values)) (PP (IN of) (NP (NP (ADJP (RB publicly) (VBN traded)) (NN investment) (NN fund) (NNS shares)) (, ,) (VP (VBN reported) (PP (IN by) (NP (DT the) (NNS companies))) (PP (IN as) (PP (IN of) (NP (NP (date (NNP Friday)) (POS 's)) (NN close))))))))))) (. .)) )
-(TOP (SINV (ADVP (RB Also)) (VP (VBN shown)) (VP (AUX is) (NP (NP (NP (DT the) (NN closing) (JJ listed) (NN market) (NN price)) (CC or) (NP (DT a) (JJ dealer-to-dealer) (JJ asked) (NN price))) (PP (IN of) (NP (NP (DT each) (NN fund) (POS 's)) (NNS shares)))) (, ,) (PP (IN with) (NP (NP (DT the) (NN percentage)) (PP (IN of) (NP (NN difference)))))) (. .)) )
-(TOP (FRAG (VP (VBN Closed) (NP (NP (NP (NNP End) (NNP Bond) (NNP Funds) (NNP Flexible) (NNP Portfolio) (NNPS Funds)) (NNP Specialized) (NNP Equity)) (CC and) (NP (NNP Convertible) (NNPS Funds)) (DT a))) (: -) (NP (NN Ex-dividend)) (. .)) )
-(TOP (X (X (SYM b)) (: -) (PP (IN As) (PP (IN of) (NP (NP (date (NNP Thursday)) (POS 's)) (NN close)))) (. .)) )
-(TOP (X (X (SYM c)) (: -) (VP (VBN Translated) (PP (IN at) (NP (organization (NNP Commercial) (NNP Rand)) (NN exchange) (NN rate)))) (. .)) )
-(TOP (X (X (SYM e)) (: -) (PP (IN In) (NP (JJ Canadian) (NNS dollars))) (. .)) )
-(TOP (X (X (SYM f)) (: -) (PP (IN As) (PP (IN of) (NP (NP (date (NNP Wednesday)) (POS 's)) (NN close)))) (. .)) )

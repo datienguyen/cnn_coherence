@@ -1,4 +1,0 @@
-(TOP (SBARQ (SBAR (NP (JJ Two-Way) (NNP Street)) (IN If) (S (NP (DT the) (JJ sixty-day) (JJ plant-closing) (NN law)) (VP (AUX 's) (ADJP (JJ fair))))) (, ,) (WHADVP (WRB Why)) (SQ (MD should) (NP (PRP we)) (ADVP (RB not) (RB then)) (VP (VB amend) (NP (DT the) (NN writ)) (S (VP (TO To) (VP (VB require) (SBAR (IN that) (S (NP (DT all) (NNS employees)) (VP (VBP give) (NP (JJ Similar) (NN notice)) (SBAR (IN before) (S (NP (PRP they)) (VP (VB quit)))))))))))) (. ?)) )
-(TOP (NP (: --) (NNP Rollin) (NNP S.) (NNP Trexler) (. .)) )
-(TOP (S (NP (JJ Candid) (NN Comment)) (SBAR (WHADVP (WRB When)) (S (NP (NN research) (NNS projects)) (VP (AUX are) (VP (VBN curtailed) (ADVP (JJ due) (PP (TO to) (NP (NN government) (NN funding) (NNS cuts)))))))) (, ,) (VP (AUX are) (S (NP (PRP we)) (`` `) (VP (`` `) (VP (VBN caught) (PP (IN with) (NP (PRP$ our) (NNS grants))) (ADVP (RB down))) ('' ')) ('' '))) (. ?)) )
-(TOP (NP (: --) (person (NNP C.E.) (NNP Friedman)) (. .)) )

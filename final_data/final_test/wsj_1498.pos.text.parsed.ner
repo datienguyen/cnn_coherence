@@ -1,2 +1,0 @@
-(TOP (S (NP (NP (person (NNP Roland) (NNP J.) (NNP Hawkins))) (, ,) (NP (NP (NN chairman)) (PP (IN of) (NP (organization (NNP Jet) (NNPS Vacations) (NNP Inc.))))) (, ,)) (VP (AUX was) (VP (VBN elected) (PP (TO to) (NP (NP (DT the) (NN board)) (PP (IN of) (NP (DT this) (NN cruise) (NN line))))))) (. .)) )
-(TOP (S (NP (DT The) (NN board)) (VP (VBZ expands) (PP (TO to) (NP (CD seven) (NNS members)))) (. .)) )

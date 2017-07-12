@@ -1,3 +1,0 @@
-(TOP (S (NP (person (NNP Randy) (NNP Delchamps))) (VP (AUX was) (VP (VBN named) (S (NP (NP (NN chairman)) (CC and) (NP (JJ chief) (NN executive) (NN officer)) (PP (IN of) (NP (DT this) (NN grocery) (NN chain))))))) (. .)) )
-(TOP (S (NP (NP (NNP Mr.) (NNP Delchamps)) (, ,) (ADJP (NP (CD 46) (NNS years)) (JJ old)) (, ,)) (VP (VBZ succeeds) (NP (NP (person (NNP A.F.) (NNP Delchamps) (NNP Jr.))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD died) (PP (IN in) (NP (DT a) (NN plane) (NN crash))) (PP (IN on) (NP (date (NNP Sunday)))) (PP (IN at) (NP (NP (DT the) (NN age)) (PP (IN of) (NP (CD 58)))))))))) (. .)) )
-(TOP (S (NP (person (NNP Randy) (NNP Delchamps))) (VP (VBZ retains) (NP (NP (PRP$ his) (NN position)) (PP (IN as) (NP (NN president))))) (. .)) )

@@ -1,8 +1,0 @@
-(TOP (S (NP (NP (person (NNP Gary) (NNP J.) (NNP Schantz))) (, ,) (ADJP (NP (CD 44) (NNS years)) (JJ old)) (, ,)) (VP (AUX was) (VP (VBN named) (S (NP (NP (NN president)) (CC and) (NP (JJ chief) (VBG operating) (NN officer)))))) (. .)) )
-(TOP (S (NP (NNP Polymerix)) (VP (VBZ makes) (NP (JJ lumber-like) (NNS materials)) (SBAR (IN that) (S (NP (PRP it)) (VP (VBZ describes) (PP (IN as) (`` `) (NP (`` `) (JJ plastic) (NN wood))))))) (. .)) )
-(TOP (S ('' ') ('' ') (NP (NP (DT The) (VBG operating) (NN chief) (POS 's)) (NN post)) (VP (AUX is) (ADJP (JJ new))) (. .)) )
-(TOP (S (NP (NP (person (NNP Martin) (NNP Schrager))) (, ,) (NP (CD 51)) (, ,) (SBAR (WHNP (WP who)) (S (VP (AUX had) (VP (AUX been) (NP (NN president)))))) (, ,)) (VP (AUX was) (VP (VBN named) (S (NP (NN vice) (NN chairman))))) (. .)) )
-(TOP (S (NP (PRP He)) (VP (VBZ remains) (NP (JJ chief) (NN executive) (NN officer))) (. .)) )
-(TOP (S (NP (NNP Mr.) (NNP Schantz)) (VP (AUX was) (NP (NP (NP (NN vice) (NN president)) (CC and) (NP (JJ chief) (VBG operating) (NN officer))) (PP (IN of) (NP (NP (DT the) (organization (NNP Acrylic)) (NN division)) (PP (IN of) (NP (NNP Polycast) (NNP Technology) (NNP Corp))))))) (. .)) )
-(TOP (S (ADVP (RB Separately)) (, ,) (NP (DT the) (NN board)) (VP (VBD expanded) (PP (TO to) (NP (CD six) (NNS members))) (PP (IN with) (NP (NP (DT the) (NN election)) (PP (IN of) (NP (NP (person (NNP David) (NNP L.) (NNP Holewinski))) (, ,) (NP (DT a) (NN consultant))))))) (. .)) )
-(TOP (S (NP (DT The) (NN company)) (ADVP (RB also)) (VP (VBD said) (SBAR (S (NP (PRP it)) (ADVP (RB privately)) (VP (VBD placed) (NP (NN stock) (CC and) (NNS warrants)) (PP (IN in) (NP (NP (NN exchange)) (PP (IN for) (NP ($ $) (CD 750,000))))))))) (. .)) )

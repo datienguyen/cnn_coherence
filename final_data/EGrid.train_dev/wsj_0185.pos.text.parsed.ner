@@ -1,3 +1,0 @@
-(TOP (NP (organization (NNP INTER-TEL) (NNP Inc) (. .))) )
-(TOP (S (PRN (-LRB- -LRB-) (NP (NP (location (NNP Chandler))) (, ,) (NP (NNP Ariz.))) (-RRB- -RRB-)) (: --) (NP (NP (person (NNP Jerry) (NNP Chapman))) (, ,) (NP (NP (VBG managing) (NN director)) (PP (IN of) (NP (organization (NNP WayMar) (NNPS Associates))))) (, ,)) (VP (AUX was) (VP (VBN elected) (S (NP (NP (DT a) (NN director)) (PP (IN of) (NP (DT this) (NN business) (NNS telecommunications) (NN software) (CC and) (NNS systems) (NN concern))))))) (. .)) )
-(TOP (S (NP (PRP He)) (VP (VBZ increases) (NP (DT the) (NN board)) (PP (TO to) (NP (CD seven)))) (. .)) )
