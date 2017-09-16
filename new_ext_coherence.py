@@ -11,7 +11,7 @@ from keras import backend as K
 
 import numpy as np
 from utilities import my_callbacks
-from utilities import data_helper
+from utilities import new_data_helper
 import optparse
 import sys
 
@@ -80,20 +80,24 @@ if __name__ == '__main__':
     else:
         fn = None
     
-    print('Loading vocab of the whole dataset...')
+    
 
     #fn = range(0,10) #using feature
-    vocab = data_helper.load_all(filelist="final_data/wsj.all",fn=fn)
+    #vocab = data_helper.load_all(filelist="final_data/wsj.all",fn=fn)
+    print('Loading vocabs for the whole dataset...')
+    vocabs, E = new_data_helper.init_vocab(opts.emb_size)
+    print vocabs
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, E = data_helper.load_and_numberize_Egrid_with_Feats("final_data/wsj.dev", 
-            perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
+    X_train_1, X_train_0  = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.train", 
+            maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs)
 
-    X_dev_1, X_dev_0, E    = data_helper.load_and_numberize_Egrid_with_Feats("final_data/wsj.dev", 
-            perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
+    X_dev_1, X_dev_0     = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.dev", 
+            maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs)
 
-    X_test_1, X_test_0, E    = data_helper.load_and_numberize_Egrid_with_Feats("final_data/wsj.dev", 
-            perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
+    X_test_1, X_test_0   = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.test", 
+            maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs)
+
 
     num_train = len(X_train_1)
     num_dev   = len(X_dev_1)
@@ -127,7 +131,7 @@ if __name__ == '__main__':
     sent_input = Input(shape=(opts.maxlen,), dtype='int32', name='sent_input')
 
     # embedding layer encodes the input into sequences of 300-dimenstional vectors. 
-    x = Embedding(output_dim=opts.emb_size, weights=[E], input_dim=len(vocab), input_length=opts.maxlen)(sent_input)
+    x = Embedding(output_dim=opts.emb_size, weights=[E], input_dim=len(vocabs), input_length=opts.maxlen)(sent_input)
 
     # add a convolutiaon 1D layer
     #x = Dropout(dropout_ratio)(x)
