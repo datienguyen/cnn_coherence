@@ -81,15 +81,15 @@ if __name__ == '__main__':
         fn = None
     
     
-
     #fn = range(0,10) #using feature
     #vocab = data_helper.load_all(filelist="final_data/wsj.all",fn=fn)
     print('Loading vocabs for the whole dataset...')
-    vocabs, E = new_data_helper.init_vocab(opts.emb_size)
-    print vocabs
+    vocabs, E = new_data_helper.init_vocab(filelist="./final_data/wsj.train_dev", emb_size=opts.emb_size)
+
+    print 'Number of vocabs: ', len(vocabs)
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0  = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.train", 
+    X_train_1, X_train_0  = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.dev", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs)
 
     X_dev_1, X_dev_0     = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.dev", 

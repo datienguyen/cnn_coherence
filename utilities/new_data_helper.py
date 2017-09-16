@@ -9,12 +9,41 @@ from collections import Counter
 from keras.preprocessing import sequence
 
 
-def init_vocab(emb_size):
-    vocabs =['0','S','O','X','-']
+def init_vocab(filelist="list_of_grid.txt", emb_size=300):
+    
+
+    wordcount={}
+    list_of_files = [line.rstrip('\n') for line in open(filelist)]
+    for file in list_of_files:
+        #print(file) 
+        lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
+        for line in lines:
+            ent = line.split()[0]
+            if ent not in wordcount:
+                wordcount[ent] = 1
+            else:
+                wordcount[ent] += 1
+
+
+    entities =[]
+    for ent in wordcount:
+        if wordcount[ent] > 1:
+            entities.append(ent)
+
+    vocabs = []
+    for ent in entities:
+        vocabs.append(ent + "_S")
+        vocabs.append(ent + "_O")
+        vocabs.append(ent + "_X")
+
+
+    #print len(vocabs)
+    vocabs.append("-")
+    vocabs.append("0")
 
     np.random.seed(2017)
     E      = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocabs), emb_size))
-    E[0] = 0
+    E[len(vocabs)-1] = 0
 
     return vocabs, E
 
@@ -26,7 +55,7 @@ def load_and_numberize_egrids(filelist="list_of_grid.txt", maxlen=15000, w_size=
         return None
 
     list_of_files = [line.rstrip('\n') for line in open(filelist)]
-    
+
     # process postive gird, convert each file to be a sentence
     sentences_1 = []
     sentences_0 = []
@@ -40,9 +69,9 @@ def load_and_numberize_egrids(filelist="list_of_grid.txt", maxlen=15000, w_size=
         grid_1 = "0 "* w_size
 
         for idx, line in enumerate(lines):
-            e_trans = get_eTrans_with_Word(line) # merge the grid of positive document     
+            e_trans = get_eTrans_with_Word(line) # merge the grid of positive document  
             if len(e_trans) !=0:
-                #print e_trans
+                print e_trans
                 grid_1 = grid_1 + e_trans + " " + "0 "* w_size
         
         p_count = 0
@@ -103,7 +132,10 @@ def get_eTrans_with_Word(sent):
     new_x = []
 
     for role in x:
-        new_x.append(ent+"_"+role)
+        if role != "-":
+            new_x.append(ent+"_"+role)
+        else:
+            new_x.append("-")
 
     return ' '.join(new_x)
 
