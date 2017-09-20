@@ -27,7 +27,7 @@ def init_vocab(filelist="list_of_grid.txt", emb_size=300):
 
     entities =[]
     for ent in wordcount:
-        if wordcount[ent] > 1:
+        if wordcount[ent] > 2:
             entities.append(ent)
 
     vocabs = []
@@ -71,7 +71,7 @@ def load_and_numberize_egrids(filelist="list_of_grid.txt", maxlen=15000, w_size=
         for idx, line in enumerate(lines):
             e_trans = get_eTrans_with_Word(line) # merge the grid of positive document  
             if len(e_trans) !=0:
-                print e_trans
+                #print e_trans
                 grid_1 = grid_1 + e_trans + " " + "0 "* w_size
         
         p_count = 0

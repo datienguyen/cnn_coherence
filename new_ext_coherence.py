@@ -57,10 +57,10 @@ if __name__ == '__main__':
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
-        ,minibatch_size = 32
+        ,minibatch_size = 128
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 2000
+        ,maxlen         = 14000
         ,epochs         = 30
         ,emb_size       = 100
         ,hidden_size    = 250
@@ -89,7 +89,7 @@ if __name__ == '__main__':
     print 'Number of vocabs: ', len(vocabs)
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0  = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.dev", 
+    X_train_1, X_train_0  = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.train", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs)
 
     X_dev_1, X_dev_0     = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.dev", 
