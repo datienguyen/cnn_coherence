@@ -1,6 +1,9 @@
 from __future__ import division
 
-from keras.layers import AveragePooling1D, Flatten, Input, Embedding, LSTM, Dense, merge, Convolution1D, MaxPooling1D, Dropout
+from keras.layers import AveragePooling1D, Flatten, Input, Embedding, LSTM, Dense, MaxPooling1D, Dropout
+from keras.layers import Conv1D
+from keras.layers.merge import concatenate
+
 from keras.models import Model
 from keras import objectives
 from keras.preprocessing import sequence
@@ -57,17 +60,17 @@ if __name__ == '__main__':
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
-        ,minibatch_size = 32
+        ,minibatch_size = 128
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 2000
-        ,epochs         = 30
+        ,maxlen         = 500
+        ,epochs         = 25
         ,emb_size       = 100
-        ,hidden_size    = 250
-        ,nb_filter      = 150
+        ,hidden_size    = 100
+        ,nb_filter      = 100
         ,w_size         = 6 
         ,pool_length    = 6 
-        ,p_num          = 20
+        ,p_num          = 10
         ,f_list         = ""
     )
 
@@ -89,7 +92,7 @@ if __name__ == '__main__':
     print 'Number of vocabs: ', len(vocabs)
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0  = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.dev", 
+    X_train_1, X_train_0  = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.train", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs)
 
     X_dev_1, X_dev_0     = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.dev", 
@@ -135,12 +138,12 @@ if __name__ == '__main__':
 
     # add a convolutiaon 1D layer
     #x = Dropout(dropout_ratio)(x)
-    x = Convolution1D(nb_filter=opts.nb_filter, filter_length = opts.w_size, border_mode='valid', 
-            activation='relu', subsample_length=1)(x)
+    x = Conv1D(filters=opts.nb_filter, kernel_size=opts.w_size, padding='valid', 
+            activation='relu', strides=1)(x)
 
     # add max pooling layers
     #x = AveragePooling1D(pool_length=pool_length)(x)
-    x = MaxPooling1D(pool_length=opts.pool_length)(x)
+    x = MaxPooling1D(pool_size=opts.pool_length)(x)
     x = Dropout(opts.dropout_ratio)(x)
     x = Flatten()(x)
     #x = Dense(hidden_size, activation='relu')(x)
@@ -158,7 +161,7 @@ if __name__ == '__main__':
     pos_branch = shared_cnn(pos_input)
     neg_branch = shared_cnn(neg_input)
 
-    concatenated = merge([pos_branch, neg_branch], mode='concat',name="coherence_out")
+    concatenated = concatenate([pos_branch, neg_branch], axis=-1, name="coherence_out")
     # output is two latent coherence score
 
     final_model = Model([pos_input, neg_input], concatenated)
@@ -169,8 +172,8 @@ if __name__ == '__main__':
     # setting callback
     histories = my_callbacks.Histories()
 
-    print(shared_cnn.summary())
-    #print(final_model.summary())
+    #print(shared_cnn.summary())
+    print(final_model.summary())
 
     print("------------------------------------------------")	
     
@@ -191,7 +194,7 @@ if __name__ == '__main__':
     patience = 0 
     for ep in range(1,opts.epochs):
         
-        final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=1,
+        final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), epochs=1,
  					verbose=1, batch_size=opts.minibatch_size, callbacks=[histories])
 
         final_model.save(model_name + "_ep." + str(ep) + ".h5")

@@ -1,5 +1,17 @@
+#!/bin/sh
 
-### <- set paths - >
+#SBATCH -o /home/tnguyen3/coding/cnn_coherence/logs/%A.out
+#SBATCH -e /home/tnguyen3/coding/cnn_coherence/logs/%A.err
+
+#SBATCH --partition=gpu                                                         
+#SBATCH --gres=gpu:1                                                            
+#SBATCH --mem=16G                                                               
+#SBATCH --job-name=tensor                                   
+
+# activates a virtualenv
+
+source ../venv-2.7-newest/bin/activate
+
 
 
 data="./final_data/"
@@ -24,9 +36,8 @@ emb_sizes=(100 50)
 
 
 
-
 log="log.CNN"
-echo "Training...!" > $log
+echo "Training...!" > ./logs/$log
 
 
 #for feat in ${features[@]}; do
@@ -40,15 +51,16 @@ for ratio in ${dr_ratios[@]}; do
 						for emb_size in ${emb_sizes[@]}; do
 
 							echo "INFORMATION: dropout_ratio=$ratio filter-nb=$nb_filter w_size=$w_size pool_len=$pool_len batch-size=$mb maxlen=$maxlen emb_size=$emb_size feats=$feat">> $log;
-							echo "----------------------------------------------------------------------" >> $log;
+							echo "----------------------------------------------------------------------" >> ./logs/$log;
 
-							THEANO_FLAGS=device=gpu0,floatX=float32 python $CNN_SCR --data-dir=$data --model-dir=$MODEL_DIR \
+							THEANO_FLAGS=device=gpu,floatX=float32 python $CNN_SCR --data-dir=$data --model-dir=$MODEL_DIR \
 							--dropout_ratio=$ratio --minibatch-size=$mb --emb-size=$emb_size\
 							--nb_filter=$nb_filter --w_size=$w_size --pool_length=$pool_len\
-							--max-length=$maxlen  >>$log
+							--max-length=$maxlen  >>& ./logs/$log
 							wait
 
-							echo "----------------------------------------------------------------------" >> $log;
+							echo "----------------------------------------------------------------------" >> ./logs/$log;
+							echo ""
 						done
 					done
 				done
