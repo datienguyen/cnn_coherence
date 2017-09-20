@@ -6,7 +6,7 @@
 #SBATCH --partition=gpu                                                         
 #SBATCH --gres=gpu:1                                                            
 #SBATCH --mem=16G                                                               
-#SBATCH --job-name=tensor                                   
+#SBATCH --job-name=theano                                  
 
 # activates a virtualenv
 
@@ -56,7 +56,7 @@ for ratio in ${dr_ratios[@]}; do
 							THEANO_FLAGS=device=gpu,floatX=float32 python $CNN_SCR --data-dir=$data --model-dir=$MODEL_DIR \
 							--dropout_ratio=$ratio --minibatch-size=$mb --emb-size=$emb_size\
 							--nb_filter=$nb_filter --w_size=$w_size --pool_length=$pool_len\
-							--max-length=$maxlen  >>& ./logs/$log
+							--max-length=$maxlen  >> ./logs/$log
 							wait
 
 							echo "----------------------------------------------------------------------" >> ./logs/$log;
