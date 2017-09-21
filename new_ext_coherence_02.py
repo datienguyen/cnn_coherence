@@ -51,6 +51,7 @@ if __name__ == '__main__':
     parser.add_option("-n", "--epochs",             dest="epochs", type="int", help="nb of epochs [default: %default]")
     parser.add_option("-P", "--permutation",        dest="p_num", type="int", help="nb of permutation[default: %default]")
     parser.add_option("-F", "--feats",        dest="f_list", help="semantic features using in the model, separate by . [default: %default]") 
+    parser.add_option("-O", "--occur",        dest="occur", help="number of term ocurrences. [default: %default]") 
 
     parser.set_defaults(
 
@@ -72,6 +73,7 @@ if __name__ == '__main__':
         ,pool_length    = 6 
         ,p_num          = 10
         ,f_list         = ""
+        ,occur           = 30
     )
 
     opts,args = parser.parse_args(sys.argv)
@@ -87,7 +89,7 @@ if __name__ == '__main__':
     #fn = range(0,10) #using feature
     #vocab = data_helper.load_all(filelist="final_data/wsj.all",fn=fn)
     print('Loading vocabs for the whole dataset...')
-    vocabs, E = new_data_helper.init_vocab(filelist="./final_data/wsj.train_dev", emb_size=opts.emb_size)
+    vocabs, E = new_data_helper.init_vocab(filelist="./final_data/wsj.train_dev", emb_size=opts.emb_size, occur=opts.occur)
 
     print 'Number of vocabs: ', len(vocabs)
 

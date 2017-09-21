@@ -9,7 +9,7 @@ from collections import Counter
 from keras.preprocessing import sequence
 
 
-def init_vocab(filelist="list_of_grid.txt", emb_size=300):
+def init_vocab(filelist="list_of_grid.txt", emb_size=300, occur=30):
     
 
     wordcount={}
@@ -24,11 +24,16 @@ def init_vocab(filelist="list_of_grid.txt", emb_size=300):
             else:
                 wordcount[ent] += 1
 
+    #print sorted(wordcount.items(), key=lambda x: x[1])
 
     entities =[]
+
     for ent in wordcount:
-        if wordcount[ent] > 2:
+        if wordcount[ent] >= occur:
             entities.append(ent)
+
+    print len(wordcount.keys()), "\tnumber of entities\n", 
+    print len(entities), "\tin which have", occur, "ocurrences"    
 
     vocabs = []
     for ent in entities:
@@ -60,6 +65,8 @@ def load_and_numberize_egrids(filelist="list_of_grid.txt", maxlen=15000, w_size=
     sentences_1 = []
     sentences_0 = []
     
+    check = []
+
     for file in list_of_files:
         #print(file) 
 
@@ -74,6 +81,9 @@ def load_and_numberize_egrids(filelist="list_of_grid.txt", maxlen=15000, w_size=
                 #print e_trans
                 grid_1 = grid_1 + e_trans + " " + "0 "* w_size
         
+        check += grid_1.split()
+
+
         p_count = 0
         for i in range(1,perm_num+1): # reading the permuted docs
             permuted_lines = [p_line.rstrip('\n') for p_line in open(file+ ".EGrid" +"-"+str(i))]    
@@ -93,6 +103,10 @@ def load_and_numberize_egrids(filelist="list_of_grid.txt", maxlen=15000, w_size=
         for i in range (0, p_count): #stupid code
             sentences_1.append(grid_1)
 
+    check = list(set(check))
+
+    xxxx = [i for i in check if i in vocabs]
+    print len(xxxx)
 
     assert len(sentences_0) == len(sentences_1)
 

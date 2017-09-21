@@ -33,6 +33,7 @@ w_sizes=(5)
 pool_lengths=(4 6 8)
 max_lengths=(14000)
 emb_sizes=(300 100)
+occur=30
 
 
 
@@ -50,13 +51,13 @@ for ratio in ${dr_ratios[@]}; do
 					for maxlen in ${max_lengths[@]}; do
 						for emb_size in ${emb_sizes[@]}; do
 
-							echo "INFORMATION: dropout_ratio=$ratio filter-nb=$nb_filter w_size=$w_size pool_len=$pool_len batch-size=$mb maxlen=$maxlen emb_size=$emb_size feats=$feat">> ./logs/$log;
+							echo "INFORMATION: dropout_ratio=$ratio filter-nb=$nb_filter w_size=$w_size pool_len=$pool_len batch-size=$mb maxlen=$maxlen emb_size=$emb_size occur=$occur feats=$feat">> ./logs/$log;
 							echo "----------------------------------------------------------------------" >> ./logs/$log;
 
 							THEANO_FLAGS=device=gpu,floatX=float32 python $CNN_SCR --data-dir=$data --model-dir=$MODEL_DIR \
 							--dropout_ratio=$ratio --minibatch-size=$mb --emb-size=$emb_size\
 							--nb_filter=$nb_filter --w_size=$w_size --pool_length=$pool_len\
-							--max-length=$maxlen  >> ./logs/$log
+							--max-length=$maxlen --occur=$occur  >> ./logs/$log
 							wait
 
 							echo "----------------------------------------------------------------------" >> ./logs/$log;
