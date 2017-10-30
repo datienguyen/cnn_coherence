@@ -68,7 +68,7 @@ if __name__ == '__main__':
         ,w_size         = 6 
         ,pool_length    = 6 
         ,p_num          = 20
-        ,f_list         = ""
+        ,f_list         = "0.1.3"
     )
 
     opts,args = parser.parse_args(sys.argv)
@@ -84,6 +84,7 @@ if __name__ == '__main__':
 
     #fn = range(0,10) #using feature
     vocab = data_helper.load_all(filelist="final_data/wsj.all",fn=fn)
+    print vocab
 
     print("loading entity-gird for pos and neg documents...")
     X_train_1, X_train_0, E = data_helper.load_and_numberize_Egrid_with_Feats("final_data/wsj.dev", 

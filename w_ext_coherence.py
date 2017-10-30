@@ -51,7 +51,7 @@ if __name__ == '__main__':
     parser.add_option("-n", "--epochs",             dest="epochs", type="int", help="nb of epochs [default: %default]")
     parser.add_option("-P", "--permutation",        dest="p_num", type="int", help="nb of permutation[default: %default]")
     parser.add_option("-F", "--feats",        dest="f_list", help="semantic features using in the model, separate by . [default: %default]") 
-    parser.add_option("-O", "--occur",        dest="occur", help="number of term ocurrences. [default: %default]") 
+    parser.add_option("-O", "--occur",        dest="occur", help="percentage of used vocabulary in the whole corpus. [default: %default]") 
 
     parser.set_defaults(
 
@@ -64,12 +64,12 @@ if __name__ == '__main__':
         ,minibatch_size = 128
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 500
+        ,maxlen         = 100
         ,epochs         = 25
         ,emb_size       = 100
         ,hidden_size    = 100
         ,nb_filter      = 100
-        ,w_size         = 6 
+        ,w_size         = 3 
         ,pool_length    = 6 
         ,p_num          = 10
         ,f_list         = ""
@@ -89,19 +89,19 @@ if __name__ == '__main__':
     #fn = range(0,10) #using feature
     #vocab = data_helper.load_all(filelist="final_data/wsj.all",fn=fn)
     print('Loading vocabs for the whole dataset...')
-    vocabs, E = new_data_helper.init_vocab(filelist="./final_data/wsj.train_dev", emb_size=opts.emb_size, occur=opts.occur)
+    vocabs = new_data_helper.init_vocab(filelist="./final_data/wsj.train_dev", occur=opts.occur)
 
     print 'Number of vocabs: ', len(vocabs)
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0  = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.train", 
-            maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs)
+    X_train_1, X_train_0, E  = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.train", 
+            maxlen=opts.maxlen, w_size=opts.w_size, emb_size=opts.emb_size, vocabs=vocabs)
 
-    X_dev_1, X_dev_0     = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.dev", 
-            maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs)
+    X_dev_1, X_dev_0, E     = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.dev", 
+            maxlen=opts.maxlen, w_size=opts.w_size, emb_size=opts.emb_size, vocabs=vocabs)
 
-    X_test_1, X_test_0   = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.test", 
-            maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs)
+    X_test_1, X_test_0, E  = new_data_helper.load_and_numberize_egrids(filelist="./final_data/wsj.test", 
+            maxlen=opts.maxlen, w_size=opts.w_size, emb_size=opts.emb_size, vocabs=vocabs)
 
 
     num_train = len(X_train_1)
@@ -136,7 +136,7 @@ if __name__ == '__main__':
     sent_input = Input(shape=(opts.maxlen,), dtype='int32', name='sent_input')
 
     # embedding layer encodes the input into sequences of 300-dimenstional vectors. 
-    x = Embedding(output_dim=opts.emb_size, weights=[E], input_dim=len(vocabs), input_length=opts.maxlen)(sent_input)
+    x = Embedding(output_dim=opts.emb_size, weights=[E], input_dim=len(vocabs)*3+2, input_length=opts.maxlen)(sent_input)
 
     # add a convolutiaon 1D layer
     #x = Dropout(dropout_ratio)(x)
@@ -230,7 +230,7 @@ if __name__ == '__main__':
         #print(" -Test f1 : " + str(f1))
 
         #stop the model whch patience = 8
-        if patience > 5:
+        if patience > 4:
             print("Early stopping at epoch: "+ str(ep))
             break
 

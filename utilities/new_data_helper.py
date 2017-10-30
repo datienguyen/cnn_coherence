@@ -7,11 +7,11 @@ import numpy as np
 import glob, os, csv, re
 from collections import Counter
 from keras.preprocessing import sequence
+import operator
 
 
-def init_vocab(filelist="list_of_grid.txt", emb_size=300, occur=30):
+def init_vocab(filelist="list_of_grid.txt", occur=30):
     
-
     wordcount={}
     list_of_files = [line.rstrip('\n') for line in open(filelist)]
     for file in list_of_files:
@@ -23,37 +23,24 @@ def init_vocab(filelist="list_of_grid.txt", emb_size=300, occur=30):
                 wordcount[ent] = 1
             else:
                 wordcount[ent] += 1
-
     #print sorted(wordcount.items(), key=lambda x: x[1])
 
-    entities =[]
+    wordlist = sorted(wordcount.items(), key=operator.itemgetter(1), reverse=True)    # sorted by value
+    print "Number of entities: ", len(wordlist)
+    
+    n = len(wordlist)*occur/100
+    print "Using", n, "for training as", occur, "percentage" 
 
-    for ent in wordcount:
-        if wordcount[ent] >= occur:
-            entities.append(ent)
-
-    print len(wordcount.keys()), "\tnumber of entities\n", 
-    print len(entities), "\tin which have", occur, "ocurrences"    
-
+    wordlist = wordlist[0:n]
     vocabs = []
-    for ent in entities:
-        vocabs.append(ent + "_S")
-        vocabs.append(ent + "_O")
-        vocabs.append(ent + "_X")
+    for tup in wordlist:
+        vocabs.append(tup[0])    
+    vocabs.append("oov") # of our vocabulary word
 
-
-    #print len(vocabs)
-    vocabs.append("-")
-    vocabs.append("0")
-
-    np.random.seed(2017)
-    E      = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocabs), emb_size))
-    E[len(vocabs)-1] = 0
-
-    return vocabs, E
+    return vocabs
 
 #loading grid with features
-def load_and_numberize_egrids(filelist="list_of_grid.txt", maxlen=15000, w_size=3, E=None, vocabs=None, emb_size=300, perm_num=20):
+def load_and_numberize_egrids(filelist="list_of_grid.txt", maxlen=10000, w_size=3, E=None, vocabs=None, emb_size=300, perm_num=20):
     # loading entiry-grid data from list of pos document and list of neg document
     if vocabs is None:
         print("Please input vocab list")
@@ -65,8 +52,6 @@ def load_and_numberize_egrids(filelist="list_of_grid.txt", maxlen=15000, w_size=
     sentences_1 = []
     sentences_0 = []
     
-    check = []
-
     for file in list_of_files:
         #print(file) 
 
@@ -76,13 +61,10 @@ def load_and_numberize_egrids(filelist="list_of_grid.txt", maxlen=15000, w_size=
         grid_1 = "0 "* w_size
 
         for idx, line in enumerate(lines):
-            e_trans = get_eTrans_with_Word(line) # merge the grid of positive document  
+            e_trans = get_eTrans_with_Word(line, vocabs) # merge the grid of positive document  
             if len(e_trans) !=0:
                 #print e_trans
                 grid_1 = grid_1 + e_trans + " " + "0 "* w_size
-        
-        check += grid_1.split()
-
 
         p_count = 0
         for i in range(1,perm_num+1): # reading the permuted docs
@@ -90,7 +72,7 @@ def load_and_numberize_egrids(filelist="list_of_grid.txt", maxlen=15000, w_size=
             grid_0 = "0 "* w_size
 
             for idx, p_line in enumerate(permuted_lines):
-                e_trans_0 = get_eTrans_with_Word(p_line)
+                e_trans_0 = get_eTrans_with_Word(p_line, vocabs)
                 if len(e_trans_0) !=0:
                     grid_0 = grid_0 + e_trans_0  + " " + "0 "* w_size
 
@@ -103,16 +85,21 @@ def load_and_numberize_egrids(filelist="list_of_grid.txt", maxlen=15000, w_size=
         for i in range (0, p_count): #stupid code
             sentences_1.append(grid_1)
 
-    check = list(set(check))
-
-    xxxx = [i for i in check if i in vocabs]
-    print len(xxxx)
-
+    
     assert len(sentences_0) == len(sentences_1)
 
+    vocab_x =[]
+    for ent in vocabs:
+        vocab_x.append(ent + "_S")
+        vocab_x.append(ent + "_O")
+        vocab_x.append(ent + "_X")
+
+    vocab_x.append("-")
+    vocab_x.append("0")
+
     vocab_idmap = {}
-    for i in range(len(vocabs)):
-        vocab_idmap[vocabs[i]] = i
+    for i in range(len(vocab_x)):
+        vocab_idmap[vocab_x[i]] = i
 
     # Numberize the sentences
     X_1 = numberize_sentences(sentences_1, vocab_idmap)
@@ -124,11 +111,17 @@ def load_and_numberize_egrids(filelist="list_of_grid.txt", maxlen=15000, w_size=
     X_1 = sequence.pad_sequences(X_1, maxlen)
     X_0 = sequence.pad_sequences(X_0, maxlen)
 
-    return X_1, X_0
+
+    np.random.seed(2017)
+    E      = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocab_x), emb_size))
+    E[len(vocab_x)-1] = 0
+
+
+    return X_1, X_0, E
 
 
 
-def get_eTrans_with_Word(sent):
+def get_eTrans_with_Word(sent, vocabs):
     x = sent.split()
     
     length = len(x)
@@ -147,7 +140,11 @@ def get_eTrans_with_Word(sent):
 
     for role in x:
         if role != "-":
-            new_x.append(ent+"_"+role)
+            if ent in vocabs:
+                new_x.append(ent+"_"+role)
+            else:
+                new_x.append("ovv_"+ role)
+                
         else:
             new_x.append("-")
 
