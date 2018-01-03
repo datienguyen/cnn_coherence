@@ -4,7 +4,7 @@
 
 data="./final_data/"
 
-CNN_SCR="cnn_ext_coherence.py"
+CNN_SCR="cnn_coherence.py"
 #EXP_DIR="saved_exp/"
 MODEL_DIR="saved_models/"
 

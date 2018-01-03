@@ -2,9 +2,9 @@
 ### <- set paths - >
 
 
-data="./final_data/"
+data="./data/"
 
-CNN_SCR="new_ext_coherence_02.py"
+CNN_SCR="cnn_coherence.py"
 #EXP_DIR="saved_exp/"
 MODEL_DIR="saved_models/"
 
