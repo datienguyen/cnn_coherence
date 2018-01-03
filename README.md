@@ -3,8 +3,6 @@ Authors: ndat & shafiq
 
 Regard to WSJ license, we only provide entity grid files extracted using BrownCoherence toolkit.
 
-Please cite our paper if 
-
 Citation
 --------
 
