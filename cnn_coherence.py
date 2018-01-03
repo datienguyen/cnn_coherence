@@ -83,7 +83,7 @@ if __name__ == '__main__':
     print('Loading vocab of the whole dataset...')
 
     #fn = range(0,10) #using feature
-    vocab = data_helper.load_all(filelist="final_data/wsj.all",fn=fn)
+    vocab = data_helper.load_all(filelist="data/wsj.all",fn=fn)
     print vocab
 
     print("loading entity-gird for pos and neg documents...")
