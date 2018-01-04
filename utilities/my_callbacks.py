@@ -15,7 +15,7 @@ class Histories(keras.callbacks.Callback):
 	def on_epoch_end(self, epoch, logs={}):
 		self.losses.append(logs.get('loss'))
                 y_pred = self.model.predict([self.model.validation_data[0],self.model.validation_data[1]])
-                print self.validation_data[0].shape
+                
                 wins = 0
                 ties = 0
                 n = len(y_pred)
