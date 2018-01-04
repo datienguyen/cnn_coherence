@@ -11,7 +11,8 @@ If you use the entity grid files (including permutations) and the code, please r
 	@inproceedings{tiennguyen2017,
     	author    = {Tien Nguyen, Dat  and  Joty, Shafiq},
     	title     = {A Neural Local Coherence Model},
-		booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long  				Papers)},
+		booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics 
+		(Volume 1: Long Papers)},
 	month     = {July},
     	year      = {2017},
     	address   = {Vancouver, Canada},
